@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Reset de estilos básicos (baseado no Eric Meyer's Reset) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  color: black;
+}
+
+html,
+body {
+  width: 100dvw;
+  height: 100dvh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
